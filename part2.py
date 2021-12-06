@@ -9,13 +9,12 @@ In the code below, the user is asked to enter three numbers, and then prints a s
 
 num1 = int(input("Enter a number: "))
 num2 = int(input("Enter another number: "))
-num3 = int(input("Enter another number: "))
+num3 = int(input("Enter a third number: "))
 
-if(num1 == num2 == num3)
+if(num1 == num2 == num3):
   print("All three numbers are equal.")
 
-if(num1 = num2 or num2 = num3 or num1 = num3):
-print("Exactly two of the numbers are equal.")
-
-else
+elif(num1 == num2 or num2 == num3 or num1 == num3):
+  print("Exactly two of the numbers are equal.")
+else:
   print("None of the numbers are equal.")
