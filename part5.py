@@ -21,6 +21,8 @@ Enter a month:  February
 Enter a month:  Saturday
 not a month
 '''
+
+'''
 month = input("Enter a month: ")
 
 long = ["January", "March", "May", "July", "August", "October", "December", "january", "march", "may", "july", "august", "october", "december"]
@@ -34,5 +36,36 @@ elif(month == "April", "June", "September", "November", "april", "june", "septem
   print("30")
 elif (month == "february" or month == "February"):
   print("28")
+else:
+  print("not a month")
+
+'''
+
+month = input("Enter a month: ")
+
+if(month == "January" or month == "january"):
+  print("31")
+elif(month == "February" or month == "february"):
+  print("28")
+elif(month == "March" or month == "march"):
+  print("31")
+elif(month == "April" or month == "april"):
+  print("30")
+elif(month == "May" or month == "may"):
+  print("31")
+elif(month == "June" or month == "june"):
+  print("30")
+elif(month == "July" or month == "july"):
+  print("31")
+elif(month == "August" or month == "august"):
+  print("31")
+elif(month == "September" or month == "september"):
+  print("30")
+elif(month == "October" or month == "october"):
+  print("31")
+elif(month == "November" or month == "november"):
+  print("30")
+elif(month == "December" or month == "december"):
+  print("31")
 else:
   print("not a month")
